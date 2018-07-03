@@ -1,21 +1,10 @@
-# Infinum WordPress Boilerplate
 
-[![Travis](https://img.shields.io/travis/infinum/wp-boilerplate.svg?style=for-the-badge)](https://github.com/infinum/wp-boilerplate)
-[![GitHub tag](https://img.shields.io/github/tag/infinum/wp-boilerplate.svg?style=for-the-badge)](https://github.com/infinum/wp-boilerplate)
-[![GitHub stars](https://img.shields.io/github/stars/infinum/wp-boilerplate.svg?style=for-the-badge&label=Stars)](https://github.com/infinum/wp-boilerplate/)
-[![license](https://img.shields.io/github/license/infinum/wp-boilerplate.svg?style=for-the-badge)](https://github.com/infinum/wp-boilerplate)
 
 
 
 This repository contains all the tools you need to start building a modern WordPress theme, using all the latest front end development tools.
 
-## Who do I talk to?
 
-For questions talk to:
-
-* [ivan.ruzevic@infinum.hr](ivan.ruzevic@infinum.hr)
-* [denis.zoljom@infinum.hr](denis.zoljom@infinum.hr)
-* [team@eightshift.com](team@eightshift.com)
 
 ## It contains:
 
@@ -65,22 +54,8 @@ npm run rename
 
 This will make changes to theme name, description, author, text domain, package, namespace, and constants (this is important when specifying environment variable).
 
-## Development Pre Start
+https://github.com/dingo-d/browscap-vvv-utility
 
-After renaming your theme, run this to setup WordPress on the server.
-The script will install `npm` and `composer` dependencies and install the latest version of WordPress.
-
-```bash
-bash bin/_setup.sh
-```
-
-After running setup script, you'll need to create `wp-config.php`. You can do that manually, or use WP-CLI
-
-```bash
-wp config create --dbname={DBNAME} --dbuser={DBUSER} --dbpass={DBPASS}
-wp core install --url={dev.boilerplate.com} --title={THEMENAME} --admin_user={ADMINUSER} --admin_email={ADMINMAIL}
-wp theme activate {THEMENAME}
-```
 
 ## Development Start
 
